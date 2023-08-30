@@ -1,22 +1,26 @@
 .body {
-  font-family: "Lato", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0eded;
 }
 
-.bg-success {
+.bg-dark {
+  background-color: #242424 !important;
+}
+
+.bg-primary {
   background-color: #0ea516 !important;
 }
 
-.bg-warning {
-  background-color: #ffb310 !important;
+.bg-secondary {
+  background-color: #ffab10 !important;
 }
 
-.text-success {
+.text-primary {
   color: #0ea516 !important;
 }
 
 .link {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .nav-link {
