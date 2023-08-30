@@ -1,0 +1,32 @@
+.author {
+  border-top: 1px solid rgb(56, 56, 56);
+}
+
+.author__logo {
+  width: 70px;
+  color: #ff7b00;
+}
+
+@keyframes author-animation {
+  0% {
+    background-color: white;
+  }
+  33% {
+    background-color: #ffb310;
+  }
+  66% {
+    background-color: #0ea516;
+  }
+}
+
+.author__logo-image {
+  width: 35px;
+  margin: 10px;
+  background-color: white;
+  animation: author-animation 3s infinite linear;
+  transition: 0.2s;
+}
+
+.author__logo-image:hover {
+  transform: scale(1.1);
+}
