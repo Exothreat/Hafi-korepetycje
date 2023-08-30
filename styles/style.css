@@ -19,6 +19,10 @@
   color: #0ea516 !important;
 }
 
+.border-secondary {
+  border-color: #ffab10 !important;
+}
+
 .link {
   transition: 0.2s;
 }
