@@ -3,10 +3,6 @@
   background-color: #f0eded;
 }
 
-.bg-dark {
-  background-color: #242424 !important;
-}
-
 .bg-primary {
   background-color: #0ea516 !important;
 }
@@ -19,8 +15,8 @@
   color: #0ea516 !important;
 }
 
-.border-secondary {
-  border-color: #ffab10 !important;
+.border-primary {
+  border-color: #0ea516 !important;
 }
 
 .link {

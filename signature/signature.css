@@ -2,10 +2,7 @@
   0% {
     background-color: white;
   }
-  33% {
-    background-color: #ffb310;
-  }
-  66% {
+  50% {
     background-color: #0ea516;
   }
 }
@@ -14,6 +11,6 @@
   width: 35px;
   margin: 10px;
   background-color: white;
-  animation: author-animation 3s infinite linear;
+  animation: author-animation 2s infinite linear;
   transition: 0.2s;
 }
