@@ -27,6 +27,10 @@
   transition: 0.2s;
 }
 
+.link-underline-primary {
+  text-decoration-color: #0ea516 !important;
+}
+
 .nav-link {
   padding: 3px;
   margin: 2px;
