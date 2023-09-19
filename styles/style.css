@@ -4,7 +4,7 @@
 }
 
 .bg-primary {
-  background-color: #0ea516 !important;
+  background-color: #37af3d !important;
 }
 
 .bg-secondary {
@@ -12,7 +12,7 @@
 }
 
 .text-primary {
-  color: #0ea516 !important;
+  color: #37af3d !important;
 }
 
 .text-secondary {
@@ -20,7 +20,12 @@
 }
 
 .border-primary {
-  border-color: #0ea516 !important;
+  border-color: #37af3d !important;
+}
+
+.list-group-item-secondary {
+  background-color: #37af3d;
+  border: none;
 }
 
 .link {
@@ -28,7 +33,7 @@
 }
 
 .link-underline-primary {
-  text-decoration-color: #0ea516 !important;
+  text-decoration-color: #37af3d !important;
 }
 
 .nav-link {
@@ -37,6 +42,6 @@
 }
 
 .nav-link:hover {
-  background-color: #0ea516;
+  background-color: #37af3d;
   color: #000000 !important;
 }
