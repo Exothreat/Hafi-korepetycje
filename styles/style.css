@@ -28,6 +28,10 @@
   border: none;
 }
 
+.table-primary {
+  --bs-table-bg: #37af3d !important;
+}
+
 .link {
   transition: 0.2s;
 }
@@ -44,4 +48,8 @@
 .nav-link:hover {
   background-color: #37af3d;
   color: #000000 !important;
+}
+
+.border-bottom-dashed {
+  border-bottom: 1px dashed #37af3d;
 }
