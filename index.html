@@ -37,10 +37,33 @@
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="scripts/aos.js"></script>
-    <script defer src="scripts/scrollToTop.js"></script>
+    <script defer src="scripts/menu.js"></script>
   </head>
   <body class="body">
-    <section id="logo">
+    <div class="overlay"></div>
+    <div class="open-menu fs-3 bg-secondary text-center text-light">
+      <i class="bi bi-list"></i>
+    </div>
+    <div class="menu position-absolute">
+      <nav class="nav d-flex flex-column gap-2 fs-3">
+        <a class="text-light nav-link bg-secondary rounded" href="#main"
+          >Główna</a
+        >
+        <a class="text-light nav-link bg-secondary rounded" href="#about"
+          >O mnie</a
+        >
+        <a class="text-light nav-link bg-secondary rounded" href="#edu"
+          >wykształcenie</a
+        >
+        <a class="text-light nav-link bg-secondary rounded" href="#kiedy"
+          >Dostępność</a
+        >
+        <a class="text-light nav-link bg-secondary rounded" href="#opinie"
+          >Opinie</a
+        >
+      </nav>
+    </div>
+    <section id="main">
       <div class="container text-center">
         <div class="row d-flex flex-row-reverse">
           <div class="col-md-7">
@@ -51,7 +74,7 @@
             />
           </div>
           <div
-            class="col-md-5 text-bottom d-flex flex-column justify-content-center"
+            class="col-md-5 text-bottom d-flex flex-column justify-content-center gap-2"
           >
             <h1 class="fw-bold">
               Najlepsze korepetycje z&nbspmatematyki w&nbspRybniku
@@ -64,7 +87,21 @@
       </div>
     </section>
     <section id="about">
-      <div class="container"></div>
+      <div class="container text-center">
+        <div class="row d-flex">
+          <div class="col-md-7">
+            <img src="images/ludzik.png" style="max-width: 100%" alt="postać" />
+          </div>
+          <div class="col-md-5 d-flex flex-column justify-content-center gap-3">
+            <h3 class="fw-bold">Siemanko, Jestem Krzysiek</h3>
+            <h4 class="text-secondary">
+              Jeżeli chcesz się nauczyć matematyki<br />
+              to trafiłeś w dobre miejsce<br />
+            </h4>
+            <i class="bi bi-emoji-sunglasses-fill text-primary fs-1"></i>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="opinie">
       <div class="container" style="max-width: 900px">
@@ -155,7 +192,7 @@
     </section>
     <footer class="footer container-fill bg-dark text-light" id="footer">
       <div class="container">
-        <div class="d-flex flex-wrap p-3 gap-3" style="height: 300px">
+        <div class="d-flex flex-wrap p-3 mb-3 gap-3" style="height: 300px">
           <div
             class="d-flex flex-grow-1 flex-column justify-content-center gap-3 text-center"
           >
