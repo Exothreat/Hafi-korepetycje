@@ -4,9 +4,15 @@
 
 section {
   min-height: 100px;
-  background: linear-gradient(270deg, #fff, #bde7ff);
 }
 
-section:nth-of-type(2n + 1) {
-  background: linear-gradient(45deg, #bde7ff, #fff);
+body {
+  background: linear-gradient(
+    15deg,
+    #ffffff 0%,
+    #bde7ff 25%,
+    #ffffff 50%,
+    #bde7ff 75%,
+    #ffffff 100%
+  );
 }
