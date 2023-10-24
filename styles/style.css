@@ -1,55 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 .body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0eded;
+  font-family: "Lato", sans-serif;
 }
 
-.bg-primary {
-  background-color: #37af3d !important;
+section {
+  min-height: 100px;
+  background: linear-gradient(45deg, #5ec4ff79, #fff);
 }
 
-.bg-secondary {
-  background-color: #ffab10 !important;
-}
-
-.text-primary {
-  color: #37af3d !important;
-}
-
-.text-secondary {
-  color: #ffab10 !important;
-}
-
-.border-primary {
-  border-color: #37af3d !important;
-}
-
-.list-group-item-secondary {
-  background-color: #37af3d;
-  border: none;
-}
-
-.table-primary {
-  --bs-table-bg: #37af3d !important;
-}
-
-.link {
-  transition: 0.2s;
-}
-
-.link-underline-primary {
-  text-decoration-color: #37af3d !important;
-}
-
-.nav-link {
-  padding: 3px;
-  margin: 2px;
-}
-
-.nav-link:hover {
-  background-color: #37af3d;
-  color: #000000 !important;
-}
-
-.border-bottom-dashed {
-  border-bottom: 1px dashed #37af3d;
+section:nth-of-type(2n + 1) {
+  background: linear-gradient(45deg, #5ec4ff79, #fff);
 }
